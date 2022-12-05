@@ -27,7 +27,7 @@ async def send_message(message, user_message, is_private):
 
 
 def run_discord():
-    TOKEN = 'MTA0ODE2MjU3ODE0MjA4NTEyMQ.Gulpr9.EcfNLFRCNJsQ30_LpO5w9oPXOupXYG3N4_NeyA' # NOQA
+    TOKEN = '> insert your token here < ' # NOQA
     intents = discord.Intents.default()
     intents.message_content = True
     client = discord.Client(intents=intents)
